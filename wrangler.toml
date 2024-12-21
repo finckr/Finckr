@@ -1,7 +1,5 @@
-name = "finckr" # Changed to lowercase and valid format
+name = "finckr"
 compatibility_date = "2024-07-29"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
-
-# Removed node_version since it's not supported
-node_compat = true # Kept for Node.js compatibility
+node_compat = true
