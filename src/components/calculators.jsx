@@ -41,7 +41,7 @@ export function Calculators() {
         <Card>
           <CardHeader>
             <CardTitle>Interest Calculator</CardTitle>
-            <CardDescription>Calculate the interest you'll pay on your credit card balance.</CardDescription>
+            <CardDescription>Calculate the interest you will pay on your credit card balance.</CardDescription>
           </CardHeader>
           <CardContent className="space-y-2">
             <div className="space-y-1">
