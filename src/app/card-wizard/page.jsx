@@ -9,6 +9,9 @@ import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
 
+export const runtime = 'edge';
+
+
 const steps = [
   { id: 'personal', title: 'Personal Information' },
   { id: 'profession', title: 'Profession' },
