@@ -8,4 +8,4 @@ coverage/
 .next/
 out/
 .wrangler
-.vercel
+.vercel/
