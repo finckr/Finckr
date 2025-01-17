@@ -5,6 +5,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button'
 import CardCarousel from '@/components/CardCarousel'
 
+export const runtime = 'edge';
+
 const calculators = [
   { 
     name: 'Interest Calculator', 

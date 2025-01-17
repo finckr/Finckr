@@ -1,5 +1,7 @@
 'use client'
 
+export const runtime = 'edge';
+
 import { useState } from 'react'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
@@ -36,7 +38,7 @@ export default function InterestCalculatorPage() {
         <Card className="max-w-2xl mx-auto">
           <CardHeader>
             <CardTitle>Interest Calculator</CardTitle>
-            <CardDescription>Calculate the interest you'll pay on your credit card balance.</CardDescription>
+            <CardDescription>Calculate the interest you will pay on your credit card balance.</CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
             <div className="space-y-2">
