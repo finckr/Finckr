@@ -1,10 +1,11 @@
+export const runtime = 'edge';
 import { notFound } from 'next/navigation'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
 import ModernCreditCard from '@/components/ModernCreditCard'
 
-export const runtime = 'edge';
+
 
 // Mock data for blog posts (same as in the listing page)
 const blogPosts = [

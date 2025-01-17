@@ -1,10 +1,10 @@
+export const runtime = 'edge';
 import Link from 'next/link'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 
-export const runtime = 'edge';
 
 // Mock data for blog posts
 const blogPosts = [
